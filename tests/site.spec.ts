@@ -2,9 +2,62 @@ import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { parseGuide } from '../src/logic';
 import { phases } from '../src/data';
-const base = process.env.SITE_URL || 'http://localhost:3000/';
+const base =
+  process.env.SITE_URL || 'http://localhost:3000/astra-career-guide/';
 const go = (path = '') => `${base}#/${path}`;
 test.use({ viewport: { width: 1440, height: 1000 } });
+
+test('production assets load under the Pages path and hash routes survive reload', async ({
+  page,
+}) => {
+  const errors: string[] = [];
+  const assets: string[] = [];
+  const baseURL = new URL(base);
+  page.on('pageerror', (error) => errors.push(error.message));
+  page.on('requestfailed', (request) => {
+    if (new URL(request.url()).origin === baseURL.origin)
+      errors.push(`${request.url()}: ${request.failure()?.errorText}`);
+  });
+  page.on('response', (response) => {
+    const url = new URL(response.url());
+    if (url.origin !== baseURL.origin) return;
+    if (!response.ok() && response.status() !== 304)
+      errors.push(`${response.status()} ${url.pathname}`);
+    if (['script', 'stylesheet'].includes(response.request().resourceType())) {
+      assets.push(url.pathname);
+      expect(url.pathname).toMatch(/\/assets\/.*\.(js|css)$/);
+      expect(url.pathname.startsWith(baseURL.pathname)).toBe(true);
+      // A reload can revalidate cached assets with a bodyless 304 response.
+      if (response.status() !== 304)
+        expect(response.headers()['content-type']).toMatch(
+          /javascript|text\/css/,
+        );
+    }
+  });
+
+  const response = await page.goto(base);
+  expect(response?.status()).toBe(200);
+  expect(await response!.text()).not.toContain('/src/main.tsx');
+  await expect(page.locator('h1')).toContainText('A clearer path');
+  expect(assets.some((asset) => asset.endsWith('.js'))).toBe(true);
+  expect(assets.some((asset) => asset.endsWith('.css'))).toBe(true);
+  const favicon = await page
+    .locator('link[rel="icon"]')
+    .evaluate((element: HTMLLinkElement) => element.href);
+  expect(new URL(favicon).pathname.startsWith(baseURL.pathname)).toBe(true);
+  expect((await page.request.get(favicon)).ok()).toBe(true);
+  await page
+    .getByRole('link', { name: 'The complete guide', exact: false })
+    .click();
+  await expect(page.locator('.chapter-row')).toHaveCount(23);
+  await page.reload();
+  await expect(page.locator('.chapter-row')).toHaveCount(23);
+  await page.goto(go('guide/verdict'));
+  await expect(page.locator('.reader-header h1')).toBeVisible();
+  await page.reload();
+  await expect(page.locator('.reader-header h1')).toBeVisible();
+  expect(errors).toEqual([]);
+});
 
 test('overview, full Markdown download and chapter filter', async ({
   page,

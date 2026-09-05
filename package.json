@@ -9,8 +9,8 @@
     "preview": "vite preview --host 0.0.0.0",
     "test": "node --import tsx --test tests/*.test.ts",
     "test:e2e": "playwright test",
-    "format": "prettier --write --single-quote src tests *.ts index.html package.json website.workflow.example.yml",
-    "format:check": "prettier --check --single-quote src tests *.ts index.html package.json website.workflow.example.yml"
+    "format": "prettier --write --single-quote --no-error-on-unmatched-pattern src tests *.ts index.html package.json website.workflow.example.yml \".github/workflows/*.yml\"",
+    "format:check": "prettier --check --single-quote --no-error-on-unmatched-pattern src tests *.ts index.html package.json website.workflow.example.yml \".github/workflows/*.yml\""
   },
   "dependencies": {
     "dompurify": "^3.2.0",
