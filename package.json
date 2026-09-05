@@ -1,0 +1,34 @@
+{
+  "name": "fieldguide-computing-careers",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "format": "prettier --write --single-quote src tests *.ts index.html package.json website.workflow.example.yml",
+    "format:check": "prettier --check --single-quote src tests *.ts index.html package.json website.workflow.example.yml"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.0",
+    "lucide-react": "^0.468.0",
+    "marked": "^15.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "prettier": "^3.9.6",
+    "tsx": "^4.19.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0"
+  }
+}
