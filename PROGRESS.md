@@ -1,5 +1,40 @@
 # Career guide project — durable continuation log
 
+## Website phase — September 5, 2026 (current task)
+
+The user now requests a polished, pragmatic, comprehensive website for the completed guide, with incremental GitHub checkpoints. Edition 2 was merged through PR #2; current website baseline is `b30949c` on main. The historical delivery instructions below refer to the earlier Markdown-only task and no longer constrain the website phase.
+
+**Implementation plan:** React + TypeScript + Vite static site. Keep `CS_CE_Career_Guide_2027.md` as canonical content, parse its 23 chapters and all explicit citation anchors at build/runtime, and sanitize rendered Markdown. Add full-text search, chapter navigation, reading progress/bookmarks, career comparison, a roadmap/checklist, editable decision worksheet, and a transparent amortization calculator. Persist personal state only in the browser; support data export. Use a restrained editorial visual system (warm off-white, deep green, clear typography), responsive sidebar, keyboard navigation, and print styles. No paid media generation or new factual market forecasts needed.
+
+## Website completion checkpoint — September 5, 2026
+
+**Status:** Implementation and final production validation COMPLETE. Preserve the site; do not restart development or research. Active PR: https://github.com/gorg667/astra-career-guide/pull/3. The original Markdown is unchanged from merged Edition 2. Notes describe decisions and results, not private reasoning.
+
+**Delivered interface:** Restrained off-white/green editorial design; responsive sidebar and keyboard-contained mobile navigation; unabridged 23-chapter reader with 150 subsections, 212 routable anchors, citation deep links, scroll-aware TOC, larger-text option, print styles, bookmarks, and explicit chapter completion; local full-text search that lands at the matching subsection; 12 career families with filtering and three-way comparison; five-stage/20-milestone college roadmap; nine-prompt decision worksheet with Markdown export; transparent fixed-rate amortization and net-cost comparison calculators. Downloaded guide is byte-identical to canonical Markdown. Personal notes/progress remain browser-local; unavailable storage displays a warning. No invented career scores, salary projections, or AI-proof claims.
+
+**Final verified results:**
+- `npm run build`: TypeScript and Vite production build PASS, no oversized-chunk warning. Assets split into app, source text, and vendor chunks; total JS approximately 188 KB gzip, CSS approximately 9 KB gzip.
+- `npm run format:check`: PASS. All app, test, and configuration source formatted with Prettier.
+- `npm test`: **7/7 PASS**, covering canonical chapter/subsection/table preservation, all explicit and curated anchor links, 33 references, loan arithmetic, invalid inputs, and deep-link search.
+- `npm run test:e2e`: **11/11 PASS against production build** (2 workers, 22.9 seconds). Covers all chapter rendering, source download equality, filtering, bookmarks/read progress/text-size persistence, references/back navigation/printing, search, comparison limit and persistence, all roadmap stage links, checklist persistence, actual exported worksheet text, reset confirmation, calculator edge cases, mobile focus trap, storage failures, and page overflow across 320/390/768/1024/1440 px widths.
+- Axe checks using WCAG 2 A/AA and 2.1 AA tags: **12/12 page/viewport audits with zero detected violations** (home, chapter 1, careers, roadmap, worksheet, calculator at 1440 and 390 px). Automated checks are not a claim of complete accessibility certification.
+- Actual public sandbox production URL loaded in Playwright successfully. Local screenshot and audit report live under ignored `.cache/review/`; not required to rebuild.
+- `npm ci` audit reported zero vulnerabilities at validation time.
+
+**Bugs caught and fixed during validation:** Four roadmap anchor spelling mismatches; citation new-tab routing; search landing at chapter top rather than relevant text; mobile focus containment; article DOM replacement losing focused anchors; insufficient muted-text contrast. Reader article memoization also avoids needless long-document DOM updates.
+
+**Hosting / CI permissions:** GitHub Pages creation returned **403 Resource not accessible by integration**. GitHub also rejected creation of `.github/workflows/website.yml` because the integration lacks `workflows` permission. No alternate-credential retry. The example was moved to **inactive** `website.workflow.example.yml`; source push then succeeded. It is a template, NOT active CI. The repository owner can COPY it to `.github/workflows/website.yml`, enable Pages with GitHub Actions as the source, set the repository Actions variable `ENABLE_PAGES=true`, and rerun the workflow. It checks format/unit/build/browser tests before deployment. New empty `github-pages` environment restricts deployment branches to `main` and `genspark_ai_developer`; no existing environment policy was changed. No permanent website deployment is claimed. Genspark-hosted deployment remains an option only after user confirmation (asked in chat).
+
+**Temporary production preview (expires with sandbox):** https://3000-iqxtg996w7rtmn64oqv3l-18e660f9.sandbox.novita.ai . Started with `npm run preview -- --port 3000`. On a new account/sandbox: fetch and restore the development branch, run `npm ci`, `npm run build`, start preview, and obtain a NEW URL with GetServiceUrl. Do not reuse expired previews.
+
+**Final delivery / recovery:** Final changes are to be squashed into one website commit relative to merged `origin/main`, then pushed with force-with-lease and PR #3 updated. Verify remote equality/clean status. Package `dist/` as a ZIP (serve through HTTP; ES modules do not support direct file opening), include original Markdown, upload it, and share preview, ZIP, PR links. If the chat already delivered these, only hosting permission remains outstanding. Local archives belong in ignored `.cache/`; all source and continuation notes are on GitHub.
+
+**Commands:** `npm ci`; `npm run dev`; `npm run build`; `npm run preview -- --port 3000`; `npm test`; `npm run test:e2e`; `npm run format:check`. Browser tests launch an HTTP preview automatically if none exists. Native browser dependencies are normally installed with `npx playwright install --with-deps chromium`; use the workspace-only workaround below in this constrained sandbox.
+
+**Browser testing recovery:** Sandbox lacks some Chromium libraries; do not install system packages outside workspace. Use `npm ci --cache /home/user/webapp/.npm`, `PLAYWRIGHT_BROWSERS_PATH=/home/user/webapp/.cache/ms-playwright npx playwright install chromium`. Download Debian packages with `apt-get download libatk1.0-0t64 libatk-bridge2.0-0t64 libxcomposite1 libxdamage1 libatspi2.0-0t64` into `.cache/browser-libs`, extract there with `dpkg-deb -x`. Run browser with `LD_LIBRARY_PATH=/home/user/webapp/.cache/browser-libs/usr/lib/x86_64-linux-gnu`, `TMPDIR=/home/user/webapp/.cache/tmp`, and the above PLAYWRIGHT_BROWSERS_PATH. This worked in the previous sandbox. Keep browser images/temp files under ignored `.cache/`.
+
+**Resume:** Read this section first, then inspect git status/log and app files. Fetch remote before changes. Keep writes inside `/home/user/webapp`, use local npm cache, commit checkpoints immediately and update the active website PR. Do not recreate the old guide revision PR.
+
 ## Deliverable and current status
 
 **User request:** Improve the existing comprehensive Markdown guide to the best careers for someone entering a US computer science (CS) or computer engineering (CE) bachelor's degree in September 2027, likely graduating around 2031. Preserve work incrementally on GitHub across interruptions/account changes.
