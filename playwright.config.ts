@@ -10,8 +10,9 @@ export default defineConfig({
   webServer: process.env.SITE_URL
     ? undefined
     : {
-        command: 'npm run preview -- --port 3000',
-        url: 'http://localhost:3000',
+        command:
+          'npm run preview -- --port 3000 --strictPort --base /astra-career-guide/',
+        url: 'http://localhost:3000/astra-career-guide/',
         reuseExistingServer: !process.env.CI,
         timeout: 30000,
       },
