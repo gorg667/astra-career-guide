@@ -6,7 +6,7 @@
 **Planning horizon:** College entry in fall 2027; approximately spring 2031 graduation for a conventional four-year bachelor's degree; longer for some co-ops, transfers, or graduate programs.  
 **Geographic focus:** The United States.  
 **Meaning of CE:** Computer engineering, not civil engineering.  
-**Edition:** 1.0 — completed September 5, 2026. Approximately 24,000 words, with 23 sections and 28 annotated reference entries.
+**Edition:** 2.0 — revised September 5, 2026. Approximately 32,000 words, with 23 sections, 33 annotated reference entries, and a 12-resource learning library.
 
 > **The central recommendation:** Choose an affordable, rigorous CS or CE program in which you can become genuinely competent. Build a broad software-and-systems foundation, acquire substantial experience before graduation, and develop one defensible specialty. For most undecided students, the strongest default is software engineering with systems, data, or security depth. For students who genuinely enjoy electronics and physical systems, CE with strong programming and a focus on embedded systems or semiconductor engineering is an excellent alternative. Treat frontier AI research, quantitative trading, and other narrow high-upside destinations as ambitious options—not the only outcomes that would make your education worthwhile.
 
@@ -21,6 +21,19 @@ No author can know the 2031 hiring market. This document therefore separates **o
 - **Before committing money:** Read sections 10–11 and, if applicable, sections 15–16.
 - **To build your plan:** Complete the worksheets in section 18 and use section 21 to schedule updates.
 - **To inspect the evidence:** Follow the numbered citations to section 23; keep observations, projections, and recommendations distinct.
+
+### Quick access to the practical tools
+
+| Your immediate question | Start here |
+|---|---|
+| “What should I provisionally choose?” | [Decision brief](#decision-brief) |
+| “What should I be able to demonstrate?” | [Eight readiness exercises and transition costs](#readiness-tests) |
+| “Can we actually fund the degree?” | [Borrowing changes relevant to 2027 and cash runway](#borrowing-2027) |
+| “What should I study next?” | [Selective learning library](#learning-resources) |
+| “Is this internship or offer sound?” | [Written-offer checklist](#offer-checklist) |
+| “Are there realistic opportunities for me?” | [Accessible-opportunity audit](#opportunity-audit) |
+
+**What changed in Edition 2.0:** The revision retains the career dossiers and cautious labor-market interpretation, while adding more concrete entry-readiness tests, transition costs, employer-risk analysis, an AI-assisted verification exercise, verified federal borrowing changes, a worked explanation of placement-statistic denominators, learning resources, recruiting safeguards, and fictional decision cases. The aim is better decisions—not more confident predictions about 2031.
 
 ## Contents
 
@@ -120,6 +133,29 @@ Do not build your entire education around:
 
 The aim is not to avoid ambitious careers. It is to make ambitious careers **options supported by a strong floor**.
 
+<a id="decision-brief"></a>
+### 1.6 If you need a decision rather than another list
+
+For an undecided student with no special constraints, I would use the following **order of investigation**, not a universal salary ranking:
+
+1. **First investigate broad software engineering.** Its advantage is the variety of problems, industries, and neighboring careers you can reach with a coherent undergraduate preparation. Start with backend or product work, not an assumption that every graduate should become an infrastructure specialist.
+2. **If hardware genuinely appeals, investigate embedded/firmware and digital verification/validation alongside software.** These are concrete CE destinations with undergraduate routes. Do not make “chip architect” the first-job requirement or confuse fab investment with design hiring.
+3. **Choose systems, data, or security depth after trying the underlying work.** These are strong ways to develop beyond generic implementation, but some destination titles require experience. Apply for a suitable bridge as well as the specialty itself.
+4. **Treat applied ML as engineering or quantitative work, not a label.** Prefer the path when you enjoy evaluation and data as well as models. Preserve a backend, data, or systems route if the selective ML opening does not materialize.
+5. **Pursue research, quant, and frontier autonomy as conditional stretch options.** Their upside can be real, but the degree should still be financially and professionally worthwhile without that outcome.
+
+**Override this ordering when your facts justify it.** A strong local embedded co-op pipeline can outweigh software's national scale. A scholarship can reverse the school-cost comparison. An inability to work in the relevant locations can remove an otherwise attractive specialty. Your preferred work can outweigh a modest pay difference.
+
+Before paying an enrollment deposit, you should be able to complete these sentences:
+
+- “My affordable path into the actual major is ___, and the financing gap is ___.”
+- “My broad first-job family is ___; I am testing ___ as a specialty.”
+- “My school gives me access to ___ courses/labs and ___ experience opportunities.”
+- “If the preferred route is unavailable, I can pursue ___ without restarting my education.”
+- “The next evidence that could change my plan is ___, which I will check by ___.”
+
+If you cannot fill a blank, investigate it. Do not fill it with a forecast of an AI-proof occupation. For a practical way to collect employer evidence, use the [accessible-opportunity audit](#opportunity-audit).
+
 ---
 
 <a id="best"></a>
@@ -176,6 +212,20 @@ A strong profile has three layers:
 The domain need not be a second major. It can come from a lab, internship, capstone, minor, or sustained interest. Knowing what a hospital scheduling system must accomplish, why a device cannot miss a deadline, or how a financial transaction is reconciled gives technical decisions context.
 
 Choose these layers sequentially. A first-year student does not need a fully formed niche before learning basic programming.
+
+### 2.5 Apply hard constraints before weighted preferences
+
+A weighted score can hide a fatal flaw. An excellent salary score cannot compensate for a program you cannot finance, a job you cannot legally perform, or a schedule incompatible with essential medical care.
+
+Use three stages:
+
+1. **Feasibility:** Can you enter the major, fund the full route, complete the prerequisites, and access plausible employers under your location and authorization constraints? An unresolved answer remains unresolved; do not score it as average.
+2. **Sustainability:** Can you tolerate the recurring work and conditions, not just the attractive parts? Test debugging, maintenance, lab work, customer interaction, and mathematical uncertainty as relevant.
+3. **Preference:** Among feasible, sustainable choices, compare pay, intellectual interest, meaning, flexibility, and long-run options.
+
+This also clarifies what “risk-adjusted” means here: examine the cost of failure and the available alternatives. It does **not** mean the guide has estimated your probability of admission, employment, or automation.
+
+**Example:** Suppose an on-site verification career scores highest on interest, while backend work scores highest on geographic flexibility. If you must remain in a region with no accessible verification employers, backend may be the viable present plan while digital design remains an elective interest. If relocation later becomes possible, the decision can change. That is a constraint changing—not evidence that the original preference was wrong.
 
 ---
 
@@ -280,6 +330,16 @@ Why include three different datasets? Because they answer different questions:
 
 A good plan should work without pretending those unknowns have been resolved.
 
+### 3.6 Why we cannot turn openings into an applicant's odds
+
+A large market can be competitive; a small market can contain an unusually good local opportunity. To estimate a graduate's odds, we would need substantially more than occupational growth: actual junior seats, eligible applicants, hiring standards, location, experience, and the student's access to those employers. This guide does not have a representative dataset containing those quantities.
+
+Do not divide annual CS/CE degree completions by BLS projected openings and call the result an employment probability. Graduates enter many occupations; some pursue further education or work outside the United States. Computing employers also hire people from other majors, experienced workers, and other routes. BLS openings include replacements and all experience levels, while degree completions count credentials rather than a clean pool of applicants for those same openings.
+
+Likewise, job-board applicant counts may include clicks or applications of unknown relevance, and repeated postings can distort vacancy totals. They do not tell you how many qualified candidates reached the hiring manager.
+
+**The useful conclusion is directional:** build a broad foundation, then investigate a feasible entry route using school-specific outcomes and the [opportunity audit](#opportunity-audit). Do not mistake missing individual-probability evidence for either a guarantee of success or proof of inevitable failure.
+
 ---
 
 <a id="degree"></a>
@@ -380,6 +440,43 @@ The table below is a planning aid, **not a measured hiring forecast**. “Bachel
 | Solutions/implementation engineering | Established in some programs | CS or CE | Technical competence plus customer communication | Travel, sales or delivery pressure | Enterprise software, consulting, support engineering |
 
 **The key distinction:** A specialty can be intellectually attractive and economically valuable while still being a poor *sole entry plan*. For a 2027 entrant, building a strong adjacent route is prudent, not unambitious.
+
+<a id="readiness-tests"></a>
+### 5.1 What credible undergraduate readiness looks like
+
+These are **practice exercises, not employer screening standards**. They describe capabilities to develop by the relevant recruiting stage, not before college. Use documentation and permitted tools, but be able to explain your decisions and respond when the requirement changes. Apply for internships before mastering the entire row; employers should expect to train interns and graduates.
+
+| Target family | A concrete demonstration | A useful follow-up question | What it does not prove |
+|---|---|---|---|
+| Backend/product | Extend a small existing service with a database change, authorization check, and regression tests | What happens if the client retries or an unauthorized user changes the record ID? | Production-scale experience or mastery of every framework |
+| Systems/platform | Diagnose a reproducible slow or failing service using logs, measurements, and a controlled experiment | How did you distinguish the root cause from a correlated symptom? | Readiness to own an unsupported production on-call rotation |
+| Data engineering | Build an incremental import that handles duplicates, corrections, and a failed run | Can you rerun it without corrupting totals, and explain the business definition? | Expertise in every warehouse or streaming platform |
+| Application security | Find and fix an access-control flaw in your own or an authorized lab application | Which trust boundary failed, and what test would catch recurrence? | Authorization to test unrelated systems or broad incident-response experience |
+| Applied ML | Compare a simple baseline and a model on an appropriate held-out dataset | Did future information leak into training, and what error is most costly? | Research originality or reliable behavior outside the tested setting |
+| Embedded/firmware | Implement a small stateful device or simulator with explicit timing and fault handling | What happens if the peripheral stops responding or power is interrupted? | Production hardware qualification or safety certification |
+| RTL/verification | Design and verify a FIFO or peripheral with self-checks and reset/boundary cases | What happens during simultaneous operations at a boundary? | Complete chip verification, physical timing closure, or analog competence |
+| Solutions/implementation | Discover a user's requirements, demonstrate an integration, and document its limits | When would you recommend against buying or deploying the proposed solution? | Expertise in every customer domain or a guaranteed sales result |
+
+The common standard is not brilliance on demand. It is **bounded work, inspectable evidence, accurate explanation, and the ability to learn from review**. If you cannot yet perform an exercise, choose the missing prerequisite and a smaller version rather than collecting another list of technologies.
+
+### 5.2 Fallbacks have transition costs
+
+“CS and CE are flexible” does not mean every move is immediate. A useful fallback must share skills you actually practice, not just appear nearby on a career chart.
+
+| Starting capability | Neighboring destination | What transfers | What you still need to add |
+|---|---|---|---|
+| Backend software | Data engineering | Programming, APIs, databases, tests | Analytical modeling, lineage, orchestration, data-quality semantics |
+| Backend or infrastructure | Application/cloud security | Knowledge of the systems being protected | Threat modeling, identity, secure design, authorized assessment |
+| Backend/data engineering | Applied ML engineering | Reliable services, data handling, deployment | Statistics, evaluation, leakage control, model lifecycle |
+| C/C++, Linux, architecture | Embedded firmware | Memory, concurrency, debugging, interfaces | Peripheral behavior, timing, electronics fundamentals, toolchain/lab practice |
+| Firmware or validation | Systems/performance software | Low-level debugging, automation, measurements | Target platform, profiling, OS/networking or compiler depth |
+| Digital verification | EDA software | Architecture, logic, test reasoning, domain context | Substantial software design, algorithms, C++ and relevant optimization |
+| Test automation | Product/backend engineering | Code reading, regression tests, debugging | Feature design, APIs/data modeling, implementation ownership |
+| Analyst/experimentation | Data science or ML | SQL, business meaning, quantitative questions | Role-specific inference, modeling, engineering, or graduate training |
+
+A more distant move—such as application development into analog IC design—may require a substantial EE sequence, lab access, and possibly graduate study. Conversely, changing software domains can still require months of learning despite using the same language.
+
+**Test your fallback each year:** find actual junior postings, identify the three largest gaps, and complete one relevant contribution. If the proposed bridge role gives you none of the required practice, it is an income option, not yet a demonstrated specialty pathway. Both can be legitimate; label them honestly.
 
 ---
 
@@ -907,6 +1004,26 @@ Independent contracting can lack stable income, benefits, and mentorship. Intern
 
 **A robust strategy:** Become capable of building and delivering useful systems, learn from customers, and maintain employability. Ambition need not require making financial survival depend on immediate startup success.
 
+### 8.9 The employer's business can matter as much as the specialty
+
+Two engineers with the same title can have very different risk, compensation, and learning experiences. Evaluate **what funds the work** and whether the specific team helps sustain that funding. The following is a due-diligence framework, not an empirical ranking of employer safety.
+
+| Employer or funding model | Why the engineering is funded | What to investigate |
+|---|---|---|
+| Established product company | Customers, subscriptions, transactions, advertising, or hardware sales | Whether this product is growing, profitable, strategic, or being wound down; not merely the parent company's reputation |
+| Venture-funded startup | Existing revenue and/or investor funding for future growth | Paying users, dependence on the next financing round, management's contingency plan, senior technical support |
+| Internal enterprise team | Operations, risk reduction, compliance, or business change | Sponsorship inside the business, modernization budget, outsourcing plans, access to users |
+| Consultancy, systems integrator, or staffing firm | Client fees and contracted delivery | Who employs you, project assignment, training, bench policy, travel, billable-hour pressure, client concentration |
+| Semiconductor or device business | Design wins, product shipments, IP licensing, or manufacturing demand | Product stage, customer concentration, cancellation risk, capital cycle, location and lab requirements |
+| Government or government contractor | Appropriations and/or contracts | Funded versus proposed work, contract period and renewal risk, hiring authority, clearance/access conditions |
+| University or research laboratory | Grants, institutional funds, contracts, or core infrastructure budgets | Appointment duration, renewal, grant end dates, mentorship, benefits and promotion path |
+
+You cannot audit a private company's finances from an interview, and management may not disclose sensitive figures. You can still ask: “Is this role replacing someone or adding capacity?”, “What happens if the current project ends?”, and “What would a new graduate be doing after the first deliverable?” Treat uncertainty as uncertainty, not proof of deception.
+
+**AI-specific version:** A technically impressive demo is not a business. Ask who pays, whether the system solves a recurring problem, how operating costs change with usage, whether customers trust it, and what prevents a platform vendor from bundling the same feature. For robotics, also ask who installs, maintains, and services the physical system. For security, ask whether the identified need has an actual budget.
+
+**Do not confuse technical durability with commercial durability.** A difficult-to-automate specialty can still be housed in an unprofitable product. An ordinary business application can provide excellent engineering experience when customers depend on it and a capable team maintains it.
+
 ---
 
 <a id="ai"></a>
@@ -1045,6 +1162,35 @@ Follow course and employer policies. Do not upload private code, personal data, 
 
 The objective is to become a better engineer **with** AI, not someone whose apparent competence disappears when the tool is unavailable or wrong.
 
+### 9.8 A practical AI-assisted engineering assessment
+
+To learn whether a tool helps **your** work, use a bounded task whose result can be checked independently. Do not substitute the model's confidence, the number of generated lines, or your feeling of speed for evidence.
+
+**Example: changing a reservation service.** Write the acceptance criteria first: a reservation cannot exceed capacity; two concurrent requests must not overbook; unauthorized users cannot modify another user's reservation; a retry must not create a duplicate. Then let the tool help implement a small change.
+
+Your responsibility is to:
+
+1. Inspect the diff and understand its data flow, permissions, and dependency changes.
+2. Choose tests from the requirements, including the concurrent and unauthorized cases—not only from the implementation the tool produced.
+3. Run the tests, inspect a failure, and verify the fix. A tool writing both the code and a test that repeats the same mistaken assumption is not independent confirmation.
+4. Check the relevant documentation. A plausible API name or recommended dependency may be obsolete, unnecessary, or nonexistent.
+5. Record unresolved limits: for example, a local test does not establish production behavior across a different database configuration.
+6. Explain the change to another person and implement a small follow-up requirement without surrendering the entire task to the tool.
+
+Measure the **whole workflow**: understanding, generation, review, debugging, testing, and rework. If comparing assisted and unassisted work, use multiple reasonably comparable tasks and note ordering, familiarity, and task-selection effects. A personal comparison can improve your workflow; it is not a causal labor-market study.
+
+For tool-using agents, use least privilege: a disposable environment, test data, spending limits, and human approval for consequential actions. Generated instructions found inside a repository, web page, or document are not automatically trusted authority. Never give a student experiment production credentials or permission to modify other people's systems.
+
+**What to show an employer:** not “I use AI constantly,” but “I used an approved tool, caught this failure, verified these properties, and can explain the remaining risks.” The same pattern applies to generated SQL, hardware descriptions, statistical analyses, and technical documentation.
+
+### 9.9 Make sure the fallback is not the same economic bet
+
+Different job titles do not necessarily diversify risk. Model-training infrastructure, accelerator design, and an AI startup's application team can all depend on the same AI investment cycle. A software role and a hardware role at the same struggling product company may share a cancellation risk. Two employers may depend on the same government contract or dominant customer.
+
+This does not make those jobs unattractive. It means distinguishing **skill optionality** from **independent sources of demand**. GPU performance skills can also support simulation or scientific computing; firmware can support several device industries; data engineering can serve operational businesses as well as AI products. Those alternatives become real only if you learn their requirements and can access their employers.
+
+You cannot eliminate correlated risk while in college. You can avoid making every assumption optimistic at once: expensive tuition, a narrow specialty, one favored employer, an uncertain visa route, and an anticipated stock windfall. Relaxing even one of those dependencies may improve the plan more than chasing a supposedly safer title.
+
 ---
 
 <a id="money"></a>
@@ -1167,6 +1313,43 @@ A master's degree can provide specialization, research access, or recruiting opp
 
 The best financial safeguard is often a combination of moderate debt, a credible bachelor's-level employment route, and the freedom to choose further education for a clear purpose.
 
+<a id="borrowing-2027"></a>
+### 10.9 A 2027 entrant must check whether the financing is actually available
+
+Affordability and borrowing eligibility are different questions. A monthly-payment calculation does not establish that a lender will supply the money. **Do not enroll with an unexplained funding gap in years two through four.**
+
+For a new entrant without a qualifying pre-July-2026 borrowing/enrollment history, the Department of Education's rules effective **July 1, 2026** are particularly important. At this guide's cutoff: [29](#ref-29)
+
+- **Parent PLUS is capped at $20,000 per academic year and $65,000 in aggregate per dependent student, across all parents.** Two parents do not each get a separate cap for the same child. Cost of attendance, other aid, credit and other eligibility requirements can lower actual availability.
+- The aggregate Parent PLUS cap does not reset merely because amounts are repaid, forgiven, canceled, or discharged. The rule treats returned loan funds separately; ask the aid office about corrections and returns rather than treating repayment as a way to replenish borrowing capacity.
+- The ordinary dependent-undergraduate aggregate limit for Direct Subsidized and Unsubsidized Loans remains **$31,000 combined**. This is an aggregate ceiling, not an annual allowance or a promise that a four-year student can access the full amount; annual limits and individual eligibility also apply. Other dependency and eligibility categories have different limits.
+- Less-than-full-time enrollment can reduce student annual Direct Loan eligibility under the new proration rules. Working more and taking fewer courses therefore requires an updated aid calculation, not simply dividing tuition by credits.
+- Graduate PLUS is being phased out for new graduate/professional borrowing under the new rules, with limited transition exceptions. Do not assume that a later expensive CS/CE master's degree can be financed under the old Grad PLUS arrangements.
+
+**Illustrative cap arithmetic:** If eligible parents borrow $20,000 in each of a student's first three years, that totals $60,000, leaving only $5,000 under the $65,000 aggregate cap for later years—not another $20,000. This is not a recommendation to borrow the maximum. It illustrates why “the first year is covered” is inadequate planning.
+
+Transition exceptions depend on facts such as enrollment and borrowing before July 1, 2026; an ordinary first-time September 2027 entrant should not assume those exceptions apply. The federal-aid site also flags litigation affecting parts of the graduate/professional-degree definition. Check the institution's current interpretation for your actual program, especially before graduate study. A “professional master's” marketing label does not decide federal loan classification.
+
+**Before committing, obtain a year-by-year funding table** showing grants, family cash, student loans, parent loans, and any remaining gap, with renewal and eligibility assumptions written down. Ask who legally owes each loan and what happens if a parent cannot borrow in a later year. Do not casually replace a federal funding gap with private loans: underwriting, cosigners, interest, repayment terms, and protections can differ. Do not put a family's essential retirement or emergency resources at risk on the assumption of a top-paying graduate offer.
+
+International students should establish their own aid eligibility rather than assume US federal loans are available. Recheck all rules before 2027 enrollment: this is a dated planning warning, not an individualized aid determination or a forecast of 2031 policy.
+
+### 10.10 Budget for the transition, not only tuition
+
+Even a graduate with a job offer may need money before the first paycheck: a housing deposit, travel, temporary lodging, professional necessities, insurance, and ordinary expenses during a delayed start. A signing or relocation payment may arrive after some expenses are due and may have a repayment clause.
+
+A simple planning calculation is:
+
+**Runway in months = (available liquid cash − unavoidable one-time transition costs − protected reserve) ÷ monthly net cash outflow.**
+
+Use outflow after reliable income, and include actual debt payments, health coverage, food, transport, housing, and family commitments. If costs or income change over time, use a monthly cash-flow table instead of this constant-outflow shortcut. Do not count credit limits, hoped-for offers, or illiquid equity as cash.
+
+**Illustration, not a recommended universal savings target:** $14,000 cash, $2,000 one-time costs, no separately protected reserve, and $2,400 monthly net outflow provide five months of runway. A six-month gap under the same assumptions requires $16,400. If you must preserve an emergency reserve, the usable runway is shorter. These assumptions say nothing about the probability of a five- or six-month search.
+
+Set an action point **before** the money runs out: broaden role/location criteria, seek legitimate bridge income where authorized, reduce optional spending, and contact support services. Arrange health coverage and any required loan or immigration advice early. A legal authorization deadline can be shorter than your financial runway.
+
+A lower-paying first role can be rational if it provides income and relevant learning while preserving future options. Conversely, taking a purported “dream role” with no funded salary is not financially equivalent to a written paid offer.
+
 ---
 
 <a id="school"></a>
@@ -1198,13 +1381,19 @@ When a school says “95% placement,” ask:
 - Ninety-five percent of which students—everyone, respondents, or those seeking work?
 - Does placement include graduate school, unrelated work, temporary work, or military service?
 - How soon after graduation was it measured?
-- What was the survey response rate?
+- What were the survey response rate **and knowledge rate**, and how was information obtained beyond direct responses?
 - Are salaries means or medians, and how many graduates reported them?
 - Are CS and CE shown separately?
 - Are international students' outcomes available separately where sample sizes allow?
 - Which employers and roles recur over several years?
 
 College Scorecard provides useful cost, completion, debt, and earnings information, but metric definitions and covered populations matter. Field-of-study earnings are not a causal ranking of teaching quality and may cover federally aided completers rather than every graduate. Small cells may be suppressed. [21](#ref-21)
+
+**Knowledge rate is not response rate.** Under NACE's framework, a school may obtain verifiable outcome information through graduates, employers, faculty, or other sources. Knowledge rate is the share of all graduates whose status is known. Career outcomes rate includes employment, continuing education, and specified service/military outcomes; its denominator excludes both unknown outcomes and graduates identified as not seeking an outcome. It is not a CS-job placement probability. [30](#ref-30)
+
+**Illustrative example:** A program has 100 graduates. It knows the status of 80: 45 employed, 15 continuing education, 10 still seeking an outcome, and 10 not seeking. Its knowledge rate is 80%. Its NACE-style career outcomes rate is **60 ÷ 70 = 85.7%**, not 60 ÷ 100. Neither figure means that 85.7% of all graduates obtained a technical job. If only 30 people report usable salary data, the salary statistic covers a smaller selected group again. Unknown graduates are not automatically unemployed; they are unknown.
+
+Finally, **graduates are not all entrants**. A school can report attractive outcomes for people who completed the degree while some entrants switched majors, took additional years, or left. Ask about retention in the intended major, completion time, and support for struggling students. Do not mechanically multiply unrelated published percentages into your personal chance of success; investigate whether their cohorts and definitions even match.
 
 ### 11.3 Accreditation: useful, but understand what it means
 
@@ -1287,6 +1476,44 @@ Do not overspend on a laptop or GPU before seeing course requirements. Many comp
 For ML, use small experiments and institutional or limited cloud resources where available. For CE, borrow lab equipment or use inexpensive low-voltage kits and simulation. Budget limits and billing alerts are part of good engineering practice.
 
 A costly workstation, paid AI subscription, or certification collection is not a substitute for competence.
+
+<a id="learning-resources"></a>
+### 11.8 A selective learning library, organized by what you need next
+
+The resources below provide freely accessible instructional material as checked at the research cutoff. Certificates, print books, optional platforms, hardware, or particular services may cost money; availability can change. They are **supplements to your actual curriculum, not twelve extra courses to complete**. The selection and suggested exercises are this guide's recommendations, not hiring requirements. [31](#ref-31)
+
+| Need and approximate stage | Resource | How to use it | Evidence to produce |
+|---|---|---|---|
+| First serious programming course | [Harvard CS50x OpenCourseWare](https://cs50.harvard.edu/x/) | Choose this or another coherent introduction; work through problems rather than only watching lectures | An independently understood small program, tests, and an explanation of one bug |
+| Terminal, Git, debugging and workflow; early college | [MIT's Missing Semester](https://missing.csail.mit.edu/) | Use the shell, version-control, debugging/profiling, and shipping material as your projects need it | Reproduce a build, inspect history, diagnose a failure, recover from an ordinary mistake |
+| Data structures and algorithms; after basic programming | [MIT 6.006, Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/) | Solve problems and connect implementation with correctness and complexity | Explain why an algorithm works, when it fails, and the relevant time/space cost |
+| Linear algebra; mathematical foundation | [MIT 18.06, Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) | Work problems on systems, vector spaces, projections, eigenvalues, and related concepts alongside your degree course | Solve and interpret a small least-squares or transformation problem, not just invoke a library |
+| Probability; before deeper ML/statistics/quant | [Harvard Stat 110](https://stat110.hsites.harvard.edu/) | Use the lecture and free book resources with regular problem solving; obtain help on missing prerequisites | Reason about conditioning, expectations, independence, and a misleading intuition |
+| Operating systems; after programming and organization | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | Read selected free chapters on virtualization, concurrency, and persistence; use exercises | Demonstrate a race or persistence failure and explain a correction |
+| SQL and relational thinking | [PostgreSQL's official tutorial](https://www.postgresql.org/docs/current/tutorial.html) | Start with relational concepts and SQL, then consult official docs for transactions, indexes, and plans | Model a small dataset, write nontrivial queries, and explain a correctness/performance trade-off |
+| Statistical learning; after suitable math/programming | [An Introduction to Statistical Learning](https://www.statlearning.com/) | Choose the R or Python edition and use the labs; do not skip resampling, regularization, or uncertainty | Compare models against a simple baseline with an appropriate evaluation split |
+| Exploring how hardware and software connect | [Nand to Tetris](https://www.nand2tetris.org/course) | Start with selected hardware projects; continue toward the software stack if interested | Explain how a simple computational abstraction is implemented below the surface |
+| Verilog and digital-design practice | [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page) | Pair logic and language exercises; inspect waveforms and write your own tests | A small module plus an explanation of reset, sequential behavior, and a corner case |
+| Authorized application-security practice | [PortSwigger Web Security Academy](https://portswigger.net/web-security) | Learn the web fundamentals, then use the provided legal labs and remediation exercises | Explain a vulnerability's cause and demonstrate a fix in your own authorized environment |
+| Production reliability; after a small deployed service | [Google's Site Reliability Engineering book](https://sre.google/sre-book/table-of-contents/) | Start with objectives, monitoring, toil, incidents, and postmortems; adapt to modest systems | Write a meaningful service objective, a small runbook, and a failure analysis |
+
+**Important boundaries:** Nand to Tetris is an educational abstraction, not a substitute for circuits, physical timing, or industrial HDL. HDLBits test success is not full verification or synthesis signoff. A security lab is not permission to test other systems. Google's operating environment is not a template every small project should copy. An ML book is not sufficient preparation for research science. Older foundational material can remain useful, but check current API/tool instructions before running examples.
+
+For embedded work, add the exact microcontroller's official datasheet/reference manual, your board's schematic, and supervised lab instruction. For robotics, controls, circuits, and VLSI, follow your program's prerequisite sequence and faculty-recommended material rather than jumping directly from a tutorial to advanced deployment. Simulators reduce access barriers but do not replace all measurement experience.
+
+**A practical selection rule:** choose the next resource that addresses a demonstrated gap in a course, project, or target role. Schedule an exercise and a feedback point. Stop adding resources until you have produced that evidence. A finished, understood small contribution is more useful than an impressive reading backlog.
+
+### 11.9 What to do when the foundation is not going well
+
+A difficult first term does not establish lack of aptitude. Diagnose the kind of difficulty:
+
+- **Prerequisite gap:** If algebra, functions, or basic programming are shaky, address those directly; adding an advanced AI course is unlikely to help.
+- **Practice gap:** If lectures make sense but a blank problem does not, spend more time attempting problems, tracing programs, and explaining solutions without looking at notes.
+- **Feedback gap:** If you cannot identify why work is wrong, use office hours, tutoring, lab support, or a study group before repeatedly attempting the same approach alone.
+- **Workload/access gap:** If paid work, caregiving, disability barriers, or scheduling make the plan unmanageable, revise the course load and support arrangements with advisers, including aid and status implications.
+- **Persistent fit problem:** If you understand the work better but consistently dislike doing it, try another computing subfield or reassess the major rather than escalating commitment only because of sunk cost.
+
+Use tools to obtain explanations, not to conceal gaps from yourself. Before moving on from a foundational topic, try a new small problem, explain the key idea, and debug a mistake. This is a learning check, not a universal pass/fail test of career potential.
 
 ---
 
@@ -1728,6 +1955,42 @@ A good first-job test is:
 
 Avoid staying indefinitely in a low-learning role because a hypothetical internal transfer is always “coming soon.” At the same time, give yourself time to learn before interpreting every routine task as a dead end.
 
+<a id="offer-checklist"></a>
+### 14.10 A written-offer and internship due-diligence checklist
+
+Before accepting, separate what is **written**, what was **said**, and what is **still unknown**. A friendly interviewer is not necessarily the person authorized to promise compensation, team assignment, remote work, or sponsorship.
+
+| Item | Questions to resolve |
+|---|---|
+| Work and supervision | Which team and manager? What is the initial assignment? Who provides technical review? |
+| Employment relationship | Employee, agency employee, contractor, intern, or fellowship? Who pays and provides benefits? Do not infer legal classification from the title alone. |
+| Recurring pay | Base/hourly rate, expected hours, applicable overtime arrangements, bonus conditions, and payroll timing? |
+| Equity and one-time money | Vesting, liquidity, exercise costs where applicable, signing/relocation payment timing, repayment triggers? |
+| Location and workload | Actual worksite, permitted remote locations, travel, shifts, on-call, and academic-calendar compatibility? |
+| Start and contingencies | Written start/end dates; degree, background-check, funding, authorization, or clearance conditions? |
+| Benefits and costs | Coverage start date, premiums, leave, retirement, relocation, duplicate housing, equipment and travel expenses? |
+| Internship learning | Defined supervisor, review cadence, bounded deliverable, midpoint feedback, and what work may be described publicly? |
+| Post-internship possibilities | Actual conversion process and timing, not a verbal guarantee; headcount and eligibility conditions? |
+| Contract restrictions | Confidentiality, IP assignment, outside projects, training repayment, and restrictive covenants requiring qualified review? |
+
+If comparing paid internships, estimate **take-home earnings minus incremental costs**, then compare learning and references. Do not subtract your entire year's normal living costs from one option but only extra housing from another. If a co-op delays graduation, include the extra academic costs and changed start date, while recognizing that the experience might improve future opportunities. That benefit is uncertain, not a guaranteed salary increment.
+
+Negotiate politely when appropriate: ask whether base pay, relocation, start date, or response deadline is flexible, and give an honest reason. Do not invent another offer. An employer may have a fixed graduate package; a refusal to change it is not automatically a warning sign. Ask career services for help with conflicting deadlines and campus recruiting policies before accepting commitments you may not honor.
+
+**Unpaid work is not automatically lawful because it is called an internship or gives academic credit.** The US Department of Labor describes a fact-specific primary-beneficiary test for internships at for-profit employers; no single factor controls. State rules and other circumstances can also matter. Seek advice rather than treating this guide as a legal determination. An international student's separate work-authorization requirements still apply even if compensation is absent. [33](#ref-33)
+
+**Scam protections:** verify the employer and recruiter through independently located official contact details. Do not pay for a job promise, send money onward from an employer's check, or buy gift cards/cryptocurrency as part of hiring. A fake check can appear available before it is rejected. Supply sensitive payroll or identity information only through a verified legitimate process at the appropriate stage. Do not execute untrusted interview code or grant it access to your accounts or credentials. [33](#ref-33)
+
+### 14.11 Public-sector, laboratory, and campus routes worth checking
+
+For eligible students, **federal Pathways internships and Recent Graduates opportunities** are concrete search routes, not just an instruction to “consider government.” USAJOBS describes paid student internships and developmental recent-graduate appointments. Successful internship completion may allow conversion; it does not guarantee a permanent position. Check the actual announcement's eligibility, qualifications, deadlines, required documents, and current application-format rules. [32](#ref-32)
+
+Other discovery routes include your state's or city's official career site; a public university's IT, research-computing, or instrument-support teams; a national laboratory's official student-opportunities page; and faculty-led paid research. A laboratory's workforce can include employees of different operating contractors, so federal agency rules do not automatically describe every lab job.
+
+Search by actual contribution—software, simulation, data management, scientific computing, embedded control, cybersecurity, or test automation—not only “computer scientist.” Some positions have specific coursework requirements. Citizenship, export access, clearance, grant eligibility, and work authorization are separate checks. Government-facing work is not synonymous with classified work, and public-sector employment is not immune to budgets or hiring restrictions.
+
+For any research program, confirm that the current year's opportunity exists, who funds it, and who is eligible. Use the [NSF REU resource](#ref-28) as one route, not as a claim that every undergraduate research position follows REU eligibility rules.
+
 ---
 
 <a id="graduate"></a>
@@ -1922,6 +2185,43 @@ First distinguish poor fit from remediable barriers: weak prerequisite preparati
 
 If the recurring work still does not fit, consider adjacent or different majors. Information systems, industrial engineering, applied mathematics, design, business analytics, or noncomputing paths may be better choices. A thoughtful early change can cost less than finishing a degree you cannot use sustainably. Check academic, financial-aid, and immigration consequences before changing.
 
+### 17.3 Three worked decisions—not predictions of individual outcomes
+
+These are fictional examples designed to show the process. They contain no measured admissions or hiring probabilities.
+
+**Case A — the student who likes both software and electronics.**
+
+A student has two affordable offers. Program A's CE degree includes good digital/embedded labs and a documented manufacturing co-op pipeline, but access to advanced CS electives is restricted. Program B's CS degree has stronger software recruiting and offers architecture, but little hardware laboratory access.
+
+- **Do not decide from:** “CE includes everything in CS” or the higher hardware occupational median.
+- **Investigate:** the actual degree audit, access to algorithms/OS, what co-op students do, and whether the student's hardware interest survives debugging a real or simulated device.
+- **Reasonable provisional choice:** CE at A if hardware work remains engaging and essential software courses fit without delay; CS at B if software fits better and hardware was mainly an automation hedge.
+- **Fallback to protect:** CE students need genuine software practice; CS students should not assume a later move into chip design requires no additional coursework.
+
+The right decision turns on training and usable access, not the major's name.
+
+**Case B — the international student attracted to AI research.**
+
+The student is strong at mathematics but would need substantial borrowing. Their initial employer list consists almost entirely of frontier labs, and they have not yet tried research.
+
+- **Do not decide from:** a frontier compensation headline, an assumed future PhD admission, or a promise of sponsorship.
+- **Investigate:** lower-cost degree routes, written aid, actual authorization constraints, undergraduate research access, and portable job options both inside and outside the United States.
+- **Reasonable provisional choice:** an affordable rigorous CS route with probability/statistics and software depth; test research through sustained faculty work; maintain backend/data or systems preparation. Apply to research opportunities when the evidence supports it.
+- **What could reverse the decision:** a financially unsustainable funding gap, inaccessible employers, or discovering that reading papers and uncertain experiments are much less enjoyable than engineering delivery.
+
+A funded research opportunity later can justify a different choice. It should not be assumed today to rescue an unaffordable undergraduate plan.
+
+**Case C — the graduate comparing prestige with actual learning.**
+
+One offer has a fashionable AI title at a small firm, largely illiquid equity, unclear supervision, and a role dependent on a proposed customer contract. Another offers less headline compensation but a funded backend or validation team, named mentors, real reviews, and a clear first assignment.
+
+- **Do not decide from:** title, employer fame, or a total-compensation number that treats private options as spendable cash.
+- **Investigate:** written terms, recurring take-home income after costs, whether the contract and headcount are funded, who reviews the work, and what previous juniors learned.
+- **Reasonable provisional choice:** favor the second role when cash needs and development risk dominate. The first can be reasonable for someone who can absorb the downside **if** the missing facts are resolved and the work genuinely fits.
+- **What could reverse the decision:** credible senior support and financing at the first firm, or discovering that the second role's promised engineering is actually indefinite low-learning task execution.
+
+The point is not that startups are bad or established employers are safe. It is to compare real terms and evidence, then choose the risk you can knowingly afford.
+
 ---
 
 <a id="worksheets"></a>
@@ -1994,6 +2294,53 @@ If already enrolled, replace admissions tasks with a degree audit and internship
 10. What would make you advise someone against this career?
 
 Seek specific examples and speak with more than one person. One employer's experience is not the entire labor market.
+
+<a id="opportunity-audit"></a>
+### 18.6 Run an accessible-opportunity audit
+
+National statistics cannot tell you whether a particular specialty has viable entry routes **for you**. Before choosing expensive electives, a graduate degree, or a relocation-dependent plan, conduct a small, reproducible employer audit. This is personal decision research, not a representative national labor-market survey.
+
+**Step 1 — define the question.** For example: “Which embedded/validation employers could plausibly hire a bachelor's graduate from my program, in locations where I could work, for my expected graduation window?” Record constraints before searching. Keep internships and full-time jobs in separate groups.
+
+**Step 2 — choose a manageable sample.** As an illustrative starting scope, review 20–30 distinct postings across several employers and employer types. That number is a workload suggestion, not a statistically adequate sample or a minimum application target. If the accessible market is very small, investigate what exists rather than pretending the sample is larger. Use employer career pages to check aggregated listings.
+
+**Step 3 — record the evidence, not just titles.**
+
+| Field | What to capture |
+|---|---|
+| Source and date | URL, retrieval date, employer requisition ID, posting date if shown |
+| Actual work | Two or three recurring responsibilities; development, validation, operations, research, or customer delivery |
+| Entry level | Stated experience, student/new-graduate eligibility, degree level, graduation window |
+| Required versus preferred | Distinguish a firm qualification from a preference; note ambiguity for follow-up |
+| Location and schedule | Actual team location, lab/site access, travel, shifts, remote eligibility |
+| Work authorization/access | Sponsorship wording, clearance, export requirements; do not infer unspecified policy |
+| Skills | Repeated fundamentals, specialized tools, evidence or prior experience requested |
+| Compensation | Base range, level, location and date, if given; do not invent missing pay |
+| Posting status | Open on employer site, closed, evergreen pool, duplicate, or uncertain |
+| Personal gap and next action | Missing prerequisite, portfolio evidence, recruiter question, or unsuitable constraint |
+
+One requisition listed in five cities is not necessarily five openings. An evergreen talent pool is not a funded seat. A repost is not necessarily a new vacancy. Count **distinct opportunities and employers separately**, and keep unknowns visible.
+
+**Step 4 — triangulate.** Talk with career services, a recent graduate, and a practitioner or recruiter where possible. Ask whether the team actually hires undergraduates into that work, what successful candidates demonstrated, and whether a listing's experience requirement is strict. A “junior” title with senior responsibilities needs clarification. Conversely, do not self-reject from a plausible role solely because you lack every preferred tool.
+
+**Step 5 — compare feasible paths.** If your verification sample repeatedly needs HDL and architecture you have not studied, the next step may be a digital-design course and testbench project—not an unrelated AI certificate. If applied ML listings mostly require experience or graduate research, build the backend/data route while testing whether the additional specialization is worth its cost. If access constraints exclude nearly all sampled employers, fix the opportunity-set assumption before increasing technical specialization.
+
+**Step 6 — repeat at useful intervals.** Save a dated summary before major commitments and recruiting seasons. A summer snapshot can miss seasonal graduate hiring; use prior cohorts and later checks rather than treating one quiet month as a permanent market verdict.
+
+**Do not calculate “my hiring probability” from this audit.** Postings do not reveal the number of actual seats, internal candidates, qualified competitors, interview selection, or future budgets. The audit's purpose is narrower and more valuable: identify real requirements, accessible employers, missing evidence, and false assumptions.
+
+### 18.7 Turn the evidence into a provisional commitment
+
+Write a brief decision memo rather than continuing research indefinitely:
+
+- **Decision now:** the affordable degree route and primary entry family.
+- **Evidence:** actual curriculum, written cost/aid information, one experience of the work, and accessible-employer findings.
+- **Uncertainties:** what you still do not know, and why it matters.
+- **Next experiment:** one course, project contribution, lab visit, or conversation that could resolve an important uncertainty.
+- **Fallback:** a neighboring route with its remaining skill gaps.
+- **Review trigger:** a concrete event such as losing aid, discovering a prerequisite delay, failing to find eligible employers, or learning that you dislike the recurring work.
+
+A provisional commitment is not indecision. It lets you make progress while retaining the ability to change course when important facts change. Do not reopen the entire decision every time a company announces layoffs or a new model performs well on a benchmark.
 
 ---
 
@@ -2177,6 +2524,8 @@ Some initial BLS retrievals returned older page versions. The current wage/proje
 
 The New York Fed's **2024 major-outcome data**, its **2026 Q2 aggregate graduate series**, and NACE's **Class of 2025 starting-pay sample** must remain distinct. Their different populations and definitions are part of the evidence, not inconvenient details to omit.
 
+**Revision checks:** Edition 2.0 rechecked consequential baseline sources, the NY Fed's downloadable major data and metadata, new loan-limit provisions in the complete official regulatory text, and the added learning and safeguard resources. Internal links, reference numbering, table structure, and illustrative financial arithmetic were checked. Automated external-link requests returned a mixture of successful responses and access-denied/bot-protection responses; an HTTP success alone is not content verification, and an access-denied response is not proof that a source has disappeared. Some BLS text retrievals still returned older versions; rendered checks resolved the wage/projection vintage for the rechecked pages.
+
 ### 23.2 Labor market and compensation
 
 <a id="ref-1"></a>
@@ -2298,6 +2647,30 @@ The New York Fed's **2024 major-outcome data**, its **2026 Q2 aggregate graduate
 <a id="ref-28"></a>
 **[28] National Science Foundation — Research Experiences for Undergraduates: Information for Students.**  
 [Student resource](https://www.nsf.gov/funding/initiatives/reu/students). Describes structured research opportunities and citizenship/nationality/permanent-residence eligibility for NSF-funded participation. Other funding sources and university research arrangements may differ.
+
+### 23.7 Additional decision and financing evidence
+
+<a id="ref-29"></a>
+**[29] US Department of Education — federal borrowing changes effective July 1, 2026.**  
+[Federal Student Aid updates](https://studentaid.gov/announcements-events/big-updates); [definitions and loan-limit resources](https://studentaid.gov/announcements-events/big-updates/definitions); [Subsidized and Unsubsidized Loans](https://studentaid.gov/understand-aid/types/loans/subsidized-unsubsidized); [May 1, 2026 final rule, official complete text](https://www.govinfo.gov/content/pkg/FR-2026-05-01/html/2026-08556.htm). The final text's amendments to 34 CFR 685.203(f)(2), (g)(2)–(5), (j), and (m) support the parent annual/aggregate cap, transition exceptions, overall eligibility limits, and less-than-full-time proration discussion. The rule's discussion also confirms the unchanged ordinary dependent-undergraduate aggregate cap. The final rule phases out Grad PLUS subject to transition provisions. FSA's August 24, 2026 updates flag a preliminary stay affecting parts of the professional-degree definition; this guide does not resolve individual graduate-program classification. Full regulatory text was checked because the public site's expandable tables were not fully exposed in text retrieval. Refresh rules and obtain an institution-specific determination before borrowing.
+
+<a id="ref-30"></a>
+**[30] NACE — First-Destination Standards and Protocols.**  
+[Summary calculations](https://www.naceweb.org/job-market/graduate-outcomes/first-destination/standards-and-protocols); [key questions and answers](https://www.naceweb.org/job-market/graduate-outcomes/first-destination/first-destination-standards-and-protocols-key-questions-and-answers/). Establishes knowledge rate, the career outcomes numerator/denominator, inclusion of continuing education and multiple employment categories, and the distinction from survey response rate. The 100-graduate example in section 11 is invented solely to demonstrate the definitions, not a report of any school's outcomes.
+
+### 23.8 Learning resources and additional entry-route safeguards
+
+<a id="ref-31"></a>
+**[31] Original providers of the instructional resources in section 11.8.**  
+The linked Harvard CS50 and Stat 110 pages, MIT OpenCourseWare courses and Missing Semester, OSTEP author page, PostgreSQL documentation, ISL author site, Nand to Tetris, HDLBits, PortSwigger Academy, and Google's SRE book were inspected for content and public instructional access on September 5, 2026. These are a curated learning collection, not labor-market evidence. Public materials do not necessarily include credit, certification, individualized feedback, all software, or hardware. The table gives the original URLs and explains use and limits; commercial/vendor resources are not endorsements of their hiring or earnings claims.
+
+<a id="ref-32"></a>
+**[32] USAJOBS — students and recent graduates.**  
+[Student Pathways guidance](https://help.usajobs.gov/working-in-government/unique-hiring-paths/students); [Recent Graduates guidance](https://help.usajobs.gov/working-in-government/unique-hiring-paths/recent-graduates). Supports the existence of paid student internships and developmental recent-graduate routes. Eligibility, agency participation, conversion, qualifications, citizenship/access, and current application rules require announcement-specific review. This guide does not promise a 2027–2031 opening or reproduce a fixed conversion-hours rule.
+
+<a id="ref-33"></a>
+**[33] US Department of Labor and Federal Trade Commission — internship and job-search safeguards.**  
+[DOL Fact Sheet 71: Internship Programs Under the Fair Labor Standards Act](https://www.dol.gov/agencies/whd/fact-sheets/71-flsa-internships), updated January 2018 and reviewed at the cutoff; [FTC: Job Scams](https://consumer.ftc.gov/articles/job-scams). The DOL page describes the fact-specific primary-beneficiary test for for-profit internships; it does not resolve every placement, state-law requirement, or immigration question. FTC guidance supports warnings about paying for job promises, identity theft, and fake-check schemes. The guide's technical precaution about untrusted interview code is additional security advice, not an employment-law claim.
 
 ---
 

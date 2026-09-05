@@ -1,54 +1,71 @@
 # Career guide project — durable continuation log
 
-## User request and deliverable
-Produce a comprehensive, detailed, evidence-backed Markdown guide to the best careers for someone beginning a US computer science (CS) or computer engineering (CE) bachelor's degree in September 2027, likely graduating around 2031. Preserve work incrementally on GitHub across account changes and context loss.
+## Deliverable and current status
 
-**Final guide:** `CS_CE_Career_Guide_2027.md` — Edition 1.0, completed September 5, 2026; approximately 24,000 words, 23 numbered sections, 28 annotated reference entries, 45 external source/resource URLs.
+**User request:** Improve the existing comprehensive Markdown guide to the best careers for someone entering a US computer science (CS) or computer engineering (CE) bachelor's degree in September 2027, likely graduating around 2031. Preserve work incrementally on GitHub across interruptions/account changes.
 
-**Repository:** https://github.com/gorg667/astra-career-guide  
-**Working branch:** `genspark_ai_developer`  
-**Pull request:** https://github.com/gorg667/astra-career-guide/pull/1
+**Final guide:** `CS_CE_Career_Guide_2027.md` — **Edition 2.0**, revised September 5, 2026. Final measured size: **31,700 words, 2,678 lines, 23 numbered sections, 33 annotated reference entries, 29 tables, 12 curated learning resources, 67 distinct external URLs**. Net increase over Edition 1.0: 7,187 words. The aim was decision usefulness, not length alone.
 
-The main branch contains the initial baseline; the complete work is on the PR branch until the user merges it. Do not mistake an empty main checkout for lost work.
+**Status:** Substantive work and final structural/numerical validation complete. Final commit/push, PR update, and Markdown upload/delivery are the only remaining actions if this checkpoint is interrupted before they finish. Do not restart the research or expand the guide unnecessarily.
+
+**Repository:** https://github.com/gorg667/astra-career-guide
+
+**Working branch:** `genspark_ai_developer`
+
+**Active revision PR:** https://github.com/gorg667/astra-career-guide/pull/2
+
+**Edition 1.0 merged PR:** https://github.com/gorg667/astra-career-guide/pull/1
+
+**Merged baseline:** `43e057c` on main. Edition 2.0 remains on the revision branch until PR #2 is merged.
 
 ## Recovery procedure
-1. Work only in `/home/user/webapp`; every Bash command begins `cd /home/user/webapp &&`; verify `pwd`.
-2. Inspect `git status`, branches, and files before changes.
-3. `git fetch origin`; if the working branch is absent, `git checkout -b genspark_ai_developer origin/genspark_ai_developer`.
-4. Read this file, the guide, and `RESEARCH_NOTES.md`.
-5. Preserve any existing user modifications. Commit substantive edits immediately, sync origin/main, keep one cumulative feature commit, push with `--force-with-lease` when squashing, and update the existing PR.
-6. No application, server, or deployment is needed. Final delivery is the Markdown file plus the PR link.
 
-## Completed work
-- Primary research on BLS occupations, NY Fed graduate outcomes, NACE starting salaries, AI productivity/employment studies, cybersecurity/semiconductor reports, curriculum/accreditation, costs, immigration, clearance/export distinctions, and research eligibility.
-- Career recommendations, CS/CE comparison, detailed software/hardware/AI/security/data/research/quant/adjacent-career dossiers.
-- AI mechanisms and scenarios, financial stress tests, university selection, 2026–2031 roadmap, seven portfolio blueprints, recruiting/interviews, graduate study, personal constraints, profiles, worksheets, myths, long-run strategy, glossary, and annotated references.
-- Multiple account switches restored successfully from GitHub. One unpushed hardware installment and one interrupted concluding installment were reconstructed from conversation context; no known substantive content remains missing.
-- Draft marker removed; final edition metadata and reading routes added.
+1. All writes stay in `/home/user/webapp`; begin every Bash command with `cd /home/user/webapp &&`; verify `pwd`.
+2. Inspect `git status`, branches, and files before modifying anything. Account switches repeatedly recreated the sandbox on main, not on the revision branch.
+3. `git fetch origin`; switch to the existing `genspark_ai_developer` branch, or create it tracking `origin/genspark_ai_developer` if absent. Do not overwrite uncommitted user work.
+4. Read this log and `RESEARCH_NOTES.md`; inspect the relevant guide sections. The complete guide was read during the revision, and all substantive installments were pushed successfully before account changes.
+5. Commit changes promptly. Fetch/merge current origin/main; squash only revision commits relative to that base; push with `--force-with-lease`; update PR #2. Never squash away the merged Edition 1.0 history.
+6. No application, HTTP service, or deployment is needed. Deliver the `.md` file through UploadFileWrapper plus PR/GitHub links.
 
-## Important evidence and editorial decisions
-- Research cutoff: **September 5, 2026**. No 2031 forecast is described as observed fact.
-- BLS main table: **May 2025 wages and 2025–2035 projections**. Ordinary retrieval sometimes returned stale pages; rendered retrieval established current figures. Keep combined categories separate from subgroup wages.
-- BLS August 28, 2025 archived release is used ONLY for methodological caveats, not the newer numerical table. Technical Note discusses full-employment assumptions, no business-cycle forecasts, and unusually rapid technology change.
-- NY Fed major outcomes: **2024 ACS data released February 4, 2026**, not 2026 Q2. Aggregate graduate series is a different survey/vintage. Exact populations are documented.
-- NACE actual Class of 2025 starting base-pay means are not CS-only/CE-only medians, occupational medians, or total compensation.
-- AI evidence includes **August 2026 Stanford revision** and **February 2026 METR update**. Descriptive employment gaps are not causal estimates; task productivity is not employment.
-- DHS announced a September 15, 2026 transition, not effective at cutoff. Guide flags uncertainty and refers students to DSO/counsel; no individual legal advice.
-- Rankings, fit assessments, projects, and scenarios are editorial synthesis, not a validated scoring model. No AI-proof promises, invented probabilities, or precise 2031 salary forecasts.
-- Notes preserve evidence, decisions, and next actions—not private chain-of-thought.
+## What Edition 2.0 added
 
-## Validation performed
-- All 23 planned numbered sections present.
-- Internal citation and table-of-contents targets resolve; no duplicate explicit anchors; references 1–28 present.
-- Markdown table column counts consistent.
-- Every line containing dollar values or percentages reviewed against the claim ledger or clearly labeled illustrative assumptions.
-- NY Fed CSV and metadata independently re-read during final audit; CS/CE/EE values and rounding matched.
-- Loan arithmetic independently recalculated: at 7% over 120 months, balances $30,000/$80,000/$120,000 yield monthly payments approximately $348.33/$928.87/$1,393.30. Annual values and college-cost example matched.
-- External URL pass found no 404/410 responses. Many government/industry sites returned bot-protection 403s to direct requests, despite successful research-tool retrieval. Two Federal Student Aid interactive resources timed out/returned Loading in non-rendered checks; they remain official resource links, not sources for numerical claims. Do not claim every URL passed an unrestricted live fetch.
-- DCSA sponsoring-agency process, CPT rules, and the archived BLS methodology were additionally read during final review.
+- Section 1.6: actionable decision brief; 2.5: hard constraints before weighted preferences.
+- Section 3.6: why occupation openings, degree completions, and job-board applicant counts cannot yield personal hiring odds.
+- Sections 5.1–5.2: eight practical readiness exercises and realistic specialty-transition costs.
+- Section 8.9: employer funding/business-risk map; 9.8: AI-assisted engineering verification exercise; 9.9: correlated risks across supposed fallbacks.
+- Sections 10.9–10.10: verified July 2026 borrowing changes and job-search/start-date cash runway.
+- Section 11.2: NACE knowledge-rate versus outcomes-rate denominator example; entrant/completer distinction.
+- Sections 11.8–11.9: twelve original learning resources with prerequisites/evidence and foundation troubleshooting.
+- Sections 14.10–14.11: written-offer/internship due diligence, unpaid-work/scam safeguards, public-sector and laboratory discovery routes.
+- Section 17.3: three fictional worked decisions; 18.6–18.7: accessible-opportunity audit and provisional decision memo.
+- References 29–33, top-level practical-tool navigation, revision notes, and final edition metadata.
 
-## Immediate final actions if interrupted
-1. Re-run final structural assertions and check for draft markers.
-2. Verify local and remote branch are synchronized and working tree clean.
-3. Update PR description with final scope and validation limitations.
-4. Upload `CS_CE_Career_Guide_2027.md` through UploadFileWrapper and give the user the download URL plus GitHub PR URL. If already delivered, no further work is required unless requested.
+## Evidence decisions to preserve
+
+- Cutoff is **September 5, 2026**; 2031 outcomes are not observed facts. Rankings, exercises, sample scopes, scenarios, and fictional cases are editorial tools, not a validated scoring model or representative posting survey.
+- Main BLS table consistently uses **May 2025 wages / 2025–2035 projections**. Ordinary crawler responses sometimes return older 2024/2024–2034 pages. Fresh rendered checks of hardware, data science, and security confirmed the guide's newer values; software was also freshly checked. Do not replace them with older remembered figures.
+- NY Fed major table: **2024 ACS, released February 4, 2026**. Separate aggregate series: **2026 Q2**, released August 6. Fresh direct CSV and metadata retrieval reconfirmed CS/CE/EE figures and populations.
+- NACE Class of 2025 salaries are reported broad-category base-pay means, not CS-only/CE-only medians or total compensation. Fresh article read matched the baseline.
+- Stanford August 2026 revision is descriptive, not causal; METR slowdown is paired with its February 2026 follow-up caveat. No single productivity result establishes employment effects.
+- DHS fixed-period rule is scheduled for **September 15, 2026**, after the cutoff; fresh official quick facts matched. No individualized immigration instructions.
+- New Parent PLUS caps were checked in the **complete official GovInfo May 1, 2026 final rule**, including operative 34 CFR 685.203(f)/(g), not merely search snippets or missing FSA accordions. Per-student caps apply across parents; transition exceptions and other eligibility limits matter. Graduate classification litigation is flagged, not resolved by this guide.
+- Learning resources and job-search safeguards were checked on original-provider/official pages. Details and URLs are in the research ledger.
+- Notes retain findings, sources, decisions, and next actions—not private chain-of-thought.
+
+## Final validation results
+
+- All 23 main sections, consecutive subsection numbers, and references 1–33 present; every reference cited.
+- **62 unique explicit anchors, 86 internal links**, all resolving; **29 Markdown tables** have consistent column counts.
+- No TODO/TBD, draft-validation markers, conflict markers, or malformed/bare external URLs in the final guide. `git diff --check` passed.
+- Arithmetic independently recalculated: 7%/120-month loan balances $30k/$80k/$120k yield $348.33/$928.87/$1,393.30 monthly; annual rounded values match. Offer annualization and four-year cost difference match.
+- New examples verified: $20k × 3 leaves $5k under a $65k cap; ($14k − $2k)/$2.4k = five months; six-month need $16.4k. Fictional NACE cohort sums to 80 known, outcomes 60/70 = 85.7%.
+- External-link pass: **67 URLs, 41 HTTP 200 and 26 HTTP 403**, no 404/410 or timeouts in the final pass. Access-denied results often reflect bot protection; many corresponding pages were successfully read via research tools. HTTP 200 alone is not content verification. Do not claim every URL passed an unrestricted live fetch.
+- Added numerical claims reviewed against the ledger or explicitly labeled illustrations. New recommendations do not invent hiring probabilities or 2031 salary forecasts.
+
+## Final actions if interrupted
+
+1. Check whether final changes are committed/pushed; finish only missing actions.
+2. Verify local HEAD equals the remote revision branch and the working tree is clean.
+3. Ensure PR #2 description reports the completed scope and validation limits.
+4. Upload `CS_CE_Career_Guide_2027.md` and give the user the download URL plus https://github.com/gorg667/astra-career-guide/pull/2.
+5. If delivery already occurred, no further action is needed unless requested.

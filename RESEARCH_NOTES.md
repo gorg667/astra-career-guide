@@ -107,5 +107,50 @@ METR July 2025 RCT full page read: 16 experienced developers, 246 real issues on
 - Accepts BS/MS/PhD EE/CS/CE or equivalent; relevant ASIC verification, C++/OOP/UVM/SystemVerilog, testbenches, CPU/SoC architecture. Shows BS-accessible pathway but meaningful specialty skills required.
 - Posting Level 1 base range $100,000–$166,750, Level 2 $116,000–$189,750; equity additional; location/experience vary. Do NOT use as representative national pay; original minimum application date Mar 28, 2026 does not prove still open at cutoff. Prefer skills example without salary.
 
-## Remaining work
-Primary research is adequate to begin. Write the guide now in substantial sections with stable numbered references. Include clear confidence boundaries, degree choice, career dossiers, scenario planning, economics, four-year roadmap, project/interview specifics, personas, and maintenance. Audit all quantitative claims against this ledger before delivery. Do not spend excessive time collecting redundant sources.
+## Edition 2.0 research — September 5, 2026
+
+### Fresh baseline verification
+Re-read BLS software OOH, Stanford `/news/canariesaug26/`, NACE actual Class of 2025 salary article, and DHS fixed-period quick facts. Their consequential claims match Edition 1.0. Do not replace them with older remembered data.
+
+### Federal financing — verified, not search-only
+- https://studentaid.gov/announcements-events/big-updates and `/definitions` rendered reads show August 24, 2026 update and June 24 preliminary stay affecting portions of professional-degree definition. Accordion contents are missing from retrieved text; do not rely on these retrievals alone for numerical limits.
+- https://www.govinfo.gov/content/pkg/FR-2026-05-01/html/2026-08556.htm : complete official final rule retrieved directly with Python requests + BeautifulSoup (~951,073 text characters). Operative amendments to 34 CFR 685.203(f)(2)(i): all parents combined, per dependent student, $20,000 annual cap for periods beginning July 1, 2026 onward. Section (g)(2): $65,000 aggregate, disregarding repayments/forgiveness/cancellation/discharge; returned funds treated separately. Sections (f)(2)/(g)(3) give pre-July-2026 enrollment/borrowing exceptions, not ordinary first-time 2027 entrants. Section (j)(1) retains cost-of-attendance minus aid ceiling. Section (m) describes less-than-full-time student Direct Loan proration.
+- Rule discussion at page 23817 explicitly says ordinary dependent-undergraduate aggregate remains $31,000; annual limits also apply. Do not describe the aggregate as the standard four-year amount or an annual allowance. No undergraduate annual numerical schedule added because not separately verified.
+- Rule establishes Grad PLUS phaseout with transition exceptions; no promise that a 2031 CS/CE MS can borrow under old terms. Avoid predicting future loan rules or resolving litigated professional-degree classification.
+- Guide reference 29 contains the above sources. Illustration $20k x 3 = $60k leaves $5k, not another $20k. Runway example ($14k-$2k)/$2.4k = 5 months; six-month cash need = $16.4k. No probability of unemployment implied.
+
+### First-destination denominators
+- https://www.naceweb.org/job-market/graduate-outcomes/first-destination/standards-and-protocols
+- https://www.naceweb.org/job-market/graduate-outcomes/first-destination/first-destination-standards-and-protocols-key-questions-and-answers/
+- Full reads establish knowledge rate (known/all graduates), not response rate; sources may extend beyond responses. Career outcomes include employment/service/military/continuing education; denominator excludes unknown and not seeking. Illustrative guide cohort: 100 grads, 80 known, 45 employed + 15 education + 10 seeking + 10 not seeking; outcomes60/70=85.7%, knowledge80%. No claim about any real program. Reference 30.
+
+### Learning resource pages verified for planned resource section
+- https://cs50.harvard.edu/x/ — free OpenCourseWare; intro C/Python/SQL; feedback may require account, paid certificate/credit separate.
+- https://missing.csail.mit.edu/ — 2026 syllabus, shell/Git/debugging/profiling/shipping/agentic tools. No claim that all students need particular tools.
+- https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/ — official OCW lectures/problems, algorithms/data structures.
+- https://pages.cs.wisc.edu/~remzi/OSTEP/ — free chapter PDFs; virtualization/concurrency/persistence; bundled PDF/print can cost money.
+- https://www.postgresql.org/docs/current/tutorial.html — introductory relational/SQL tutorial; not comprehensive; additional official docs available.
+- https://www.statlearning.com/ — ISL author site, R and Python editions, labs and downloadable PDFs.
+- https://www.nand2tetris.org/course — 12 projects hardware/software; educational HDL differs from industrial HDL/physical electronics.
+- https://hdlbits.01xz.net/wiki/Main_Page — Verilog exercises with simulated reference tests; not full-chip signoff or UVM training.
+- https://portswigger.net/web-security — free vendor-supported academy and authorized labs; commercial certification/tools separate; not employment evidence.
+- https://sre.google/sre-book/table-of-contents/ — free online chapters on SLOs, toil, monitoring, incidents, postmortems, onboarding; Google practice is context-specific.
+
+### Additional retrieval decisions
+- https://help.usajobs.gov/working-in-government/unique-hiring-paths/students — paid Pathways Internship route verified. Completion may permit conversion, not guarantee it. Prefer this public resource to OPM practitioner page, which mixes inconsistent old/current hour requirements; omit numerical conversion hours.
+- DORA 2025 pages returned only footer/partners even after rendered retry. No new DORA empirical claim added; existing randomized/productivity and employment evidence adequate.
+
+### Final added sources and implementation
+- https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/ and https://stat110.hsites.harvard.edu/ read fully for the math rows. Twelve learning resources now in section11.8/reference31; appropriate prerequisites and limitations noted.
+- https://help.usajobs.gov/working-in-government/unique-hiring-paths/recent-graduates read fully: application within two years, veteran exception up to six, developmental appointments. Guide avoids unnecessary numerical procedural rules and directs readers to actual announcements. Reference32 includes both student and recent-graduate public pages.
+- https://www.dol.gov/agencies/whd/fact-sheets/71-flsa-internships read fully: January2018 updated public fact sheet, for-profit primary-beneficiary test, no single factor determinative. No categorical claim that all unpaid internships are illegal; state rules/individual facts separate.
+- https://consumer.ftc.gov/articles/job-scams read fully: job-promise fees and fake checks/forwarding funds/gift cards are major scam warnings; apparent bank clearance not proof check valid. Reference33 groups DOL/FTC safeguards, distinguishing added untrusted-code security advice.
+- All planned substantive additions implemented, including three fictional decision cases. No data from a claimed representative job-posting sample, fabricated hiring probabilities, or unverified 2031 salaries added.
+
+### Final revision audit
+- Edition 2.0 completed: 31,700 words, 23 main sections, 33 reference groups, 29 tables, 62 unique anchors, 86 resolving internal links, 67 distinct external URLs. Subsection sequences and all reference uses validated; no draft/conflict markers; diff whitespace check passed.
+- Fresh BLS ordinary retrieval again returned older 2024 data for hardware/security/data science. Rendered retrieval independently confirmed current guide rows: hardware $161,740 /76,100 /9% /4,100; data science $120,230 /275,600 /35% /24,800; security $129,180 /192,900 /21% /14,100. Do not silently mix vintages.
+- Fresh NY Fed CSV and full metadata again confirmed the CS/CE/EE values and 2024 major-data year versus 2026Q2 aggregate series.
+- Final external-link requests: 41 HTTP200, 26 HTTP403, zero404/410/timeouts across67 URLs. Many403 sources were read via research tools; successful status alone does not verify contents.
+- Independently recalculated all new numeric illustrations and baseline loans/offer/school cost examples. Detailed results and continuation steps are in PROGRESS.md.
+- Remaining delivery-only actions: final commit/push and PR#2 update if not already done, verify clean synchronized branch, upload final Markdown. No additional research or expansion needed.
